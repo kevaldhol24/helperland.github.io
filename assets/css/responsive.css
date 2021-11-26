@@ -1,0 +1,200 @@
+@media (max-width:1300px) {
+    .navbar .navbar-collapse {
+        margin: 30px 0 54px;
+    }
+    .navbar .navbar-collapse .nav-item .nav-link {
+        padding: 12px 20px;
+    }
+    .navbar .navbar-nav .dropdown .nav-link {
+        padding: 12px 0px;
+    }
+    .navbar-brand {
+        height: 100px;
+        width: 165px;
+    }
+}
+
+@media (max-width:1230px) {
+    .navbar .navbar-collapse .navbar .navbar-collapse {
+        margin: 0;
+    }
+    .navbar .navbar-collapse .nav-item .nav-link {
+        padding: 12px 10px;
+    }
+    .navbar .navbar-nav .dropdown .nav-link {
+        padding: 12px 0px;
+    }
+    .navbar-brand {
+        height: 100px;
+        width: 165px;
+    }
+}
+
+@media (max-width:1070px) {
+    .navbar-brand {
+        height: 80px;
+        width: 145px;
+    }
+    .navbar .navbar-collapse .nav-item .nav-link {
+        padding: 12px 8px;
+    }
+    .navbar .navbar-nav .dropdown .nav-link {
+        padding: 12px 0px;
+    }
+}
+
+@media (max-width:992px) {
+    /* ----navbar--- */
+    .navbar .navbar-collapse .nav-item .nav-link {
+        padding: 12px 8px;
+        max-width: 200px;
+        margin: auto;
+    }
+    .navbar-toggler {
+        height: 40px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus {
+        outline: none;
+        box-shadow: none;
+        border: none;
+    }
+    .toggler_icon {
+        height: 3px;
+        border-radius: 5px;
+        background-color: white;
+        display: block;
+    }
+    .top_bar {
+        transform: translateY(-8px);
+        width: 20px;
+        margin-left: -20px;
+        transition-delay: 0.125s;
+    }
+    .middle_bar {
+        width: 40px;
+    }
+    .bottom_bar {
+        transform: translateY(8px);
+        width: 30px;
+        margin-left: -10px;
+    }
+    .navbar_bg_color {
+        background-color: black;
+    }
+    .navbar_scrolled .navbar-collapse {
+        background-color: black;
+        border-radius: 0px 0px 8px 8px;
+        margin-top: 9px;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+    .nav-item {
+        margin: 10px 0;
+    }
+    /* ---hero--- */
+    #hero .hero_text {
+        margin-left: 58px;
+        margin-top: 180px;
+        text-align: center;
+    }
+    #why_hlp .container-fluid {
+        padding-bottom: 100px;
+    }
+    #why_hlp .why_card {
+        margin-bottom: 20px;
+    }
+    /* -----footer----- */
+    .footer .footer_bar {
+        margin: auto 60px;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .footer .social {
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    .footer .footer_logo {
+        margin: auto;
+        margin-bottom: 15px;
+        justify-content: center;
+    }
+    #hero .steps .step_num {
+        display: initial;
+    }
+    #hero .steps .arrow {
+        display: none;
+    }
+    #hero .steps .step {
+        margin: 5px 10px;
+    }
+    #hero .hero_text {
+        margin-left: 58px;
+        margin-top: 130px;
+        text-align: center;
+    }
+    #hero .book_btn {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:576px) {
+    .footer .footer_menu ul {
+        list-style-type: none;
+        text-decoration: none;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer .footer_menu ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .fixedbottom {
+        position: absolute;
+        height: 63px;
+        width: 63px;
+        bottom: 100px;
+        right: 20px;
+    }
+}
+
+@media (max-width:380px) {
+    #customer_say .row .col-md-3 .card_header {
+        margin: 36px 18px 18px 35px;
+    }
+    #customer_say .read_more {
+        margin: 20px 30px auto 35px;
+    }
+    #customer_say .card_header .message {
+        left: 220px;
+        top: -18px;
+    }
+}
+
+@media (max-width:315px) {
+    #customer_say .card_header .message {
+        display: none;
+    }
+    #customer_say .row .col-11 .card_header {
+        margin: 10px 18px 10px 35px;
+    }
+    #customer_say .row .col-md-3 {
+        height: fit-content;
+    }
+    #customer_say .read_more {
+        margin: auto auto auto 35px;
+    }
+}
