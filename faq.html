@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ---bootstrap css--- -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+    <!-- ---customcss--- -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+    <title>Helperland - FAQ</title>
+</head>
+
+<body>
+    <!-- ==============header============= -->
+    <header id="navbar_2">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./assets/images/logo.png" class="img-fluid" alt=""></a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sec_nav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="toggler_icon top_bar"></span>
+                    <span class="toggler_icon middle_bar"></span>
+                    <span class="toggler_icon bottom_bar"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="sec_nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Book now</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Price & sercice</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Warranty</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item login_btn">
+                            <a class="nav-link navbar-button" href="#">Login</a>
+                        </li>
+                        <li class="nav-item become_btn">
+                            <a class="nav-link navbar-button" href="#">Become a Helper</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- ==================banner================ -->
+        <section class="faq_banner">
+            <img class="img-fluid" src="./assets/images/faq/faqbanner.png" alt="">
+        </section>
+        <!-- ==================//banner================ -->
+
+    </header>
+    <!-- ==============//header============= -->
+
+
+    <!-- ================== faq section =========== -->
+    <section class="faqs container-fluid">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-11">
+                    <div class="title">
+                        <h1>FAQs</h1>
+                        <div class="star"><img src="./assets/images/faq/forma-1-copy-5.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="faq_desc">
+                        <p>
+                            Whether you are Customer or Service provider, We have tried our best to solve all your queries and questions.
+                        </p>
+                    </div>
+
+                    <!-- ======accordion===== -->
+
+                    <div class="faq_accordion">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="forcustom" data-bs-toggle="tab" data-bs-target="#fcstm" type="button" role="tab" aria-controls="fcstm" aria-selected="true">For Customer</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="forservice" data-bs-toggle="tab" data-bs-target="#fsp" type="button" role="tab" aria-controls="fsp" aria-selected="false">For Service Provide</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="fcstm" role="tabpanel" aria-labelledby="forcustom">
+
+                                <div class="accordion" id="accordionone">
+                                    <div class="accordion_item">
+                                        <h2 class="accordion-header accordion_btn" data-bs-toggle="collapse" data-bs-target="#fc_1">
+                                            for service sit amet, consectetur adipiscing elit. Vestibulum nisl nunc, iaculis mattis tellus ac ut non imperdiet velit?
+                                        </h2>
+                                        <div id="fc_1" class="accordion-collapse collapse show" data-bs-parent="#accordionone">
+                                            <div class="accordion-body">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id diam tincidunt, fringilla ante vitae, dapibus velit. Vivamus id tortor rhoncus, efficitur quam at, suscipit tortor. Integer fermentum convallis
+                                                    eros vel semper. Ut non imperdiet velit. Praesent eu dui vel lacus porta eleifend eget quis dui. Integer tempus massa in gravida tincidunt. Fusce in libero tristique, euismod nisi vel, luctus urna. Interdum
+                                                    et malesuada fames ac ante ipsum primis in faucibus. Donec et placerat arcu. Suspendisse lacinia tristique massa. Etiam risus justo, scelerisque id arcu eu, sodales tempor eros. Aliquam efficitur pretium
+                                                    urna, sit amet congue risus malesuada rutrum. Donec id massa vel velit ullamcorper accumsan ut eget nisl. Fusce viverra commodo lacus, sit amet facilisis leo luctus dictum. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion_item">
+                                        <h2 class="accordion-header accordion_btn collapsed" data-bs-toggle="collapse" data-bs-target="#fc_2">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nisl nunc, iaculis mattis tellus ac ut non imperdiet velit?
+                                        </h2>
+                                        <div id="fc_2" class="accordion-collapse collapse" data-bs-parent="#accordionone">
+                                            <div class="accordion-body">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id diam tincidunt, fringilla ante vitae, dapibus velit. Vivamus id tortor rhoncus, efficitur quam at, suscipit tortor. Integer fermentum convallis
+                                                    eros vel semper. Ut non imperdiet velit. Praesent eu dui vel lacus porta eleifend eget quis dui. Integer tempus massa in gravida tincidunt. Fusce in libero tristique, euismod nisi vel, luctus urna. Interdum
+                                                    et malesuada fames ac ante ipsum primis in faucibus. Donec et placerat arcu. Suspendisse lacinia tristique massa. Etiam risus justo, scelerisque id arcu eu, sodales tempor eros. Aliquam efficitur pretium
+                                                    urna, sit amet congue risus malesuada rutrum. Donec id massa vel velit ullamcorper accumsan ut eget nisl. Fusce viverra commodo lacus, sit amet facilisis leo luctus dictum. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion_item">
+                                        <h2 class="accordion-header accordion_btn collapsed" data-bs-toggle="collapse" data-bs-target="#fc_3">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nisl nunc, iaculis mattis tellus ac ut non imperdiet velit?
+                                        </h2>
+                                        <div id="fc_3" class="accordion-collapse collapse" data-bs-parent="#accordionone">
+                                            <div class="accordion-body">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id diam tincidunt, fringilla ante vitae, dapibus velit. Vivamus id tortor rhoncus, efficitur quam at, suscipit tortor. Integer fermentum convallis
+                                                    eros vel semper. Ut non imperdiet velit. Praesent eu dui vel lacus porta eleifend eget quis dui. Integer tempus massa in gravida tincidunt. Fusce in libero tristique, euismod nisi vel, luctus urna. Interdum
+                                                    et malesuada fames ac ante ipsum primis in faucibus. Donec et placerat arcu. Suspendisse lacinia tristique massa. Etiam risus justo, scelerisque id arcu eu, sodales tempor eros. Aliquam efficitur pretium
+                                                    urna, sit amet congue risus malesuada rutrum. Donec id massa vel velit ullamcorper accumsan ut eget nisl. Fusce viverra commodo lacus, sit amet facilisis leo luctus dictum. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="tab-pane fade" id="fsp" role="tabpanel" aria-labelledby="forservice">
+
+
+                                <div class="accordion" id="accordiontwo">
+                                    <div class="accordion_item">
+                                        <h2 class="accordion-header accordion_btn" data-bs-toggle="collapse" data-bs-target="#fcone">
+                                            for service sit amet, consectetur adipiscing elit. Vestibulum nisl nunc, iaculis mattis tellus ac ut non imperdiet velit?
+                                        </h2>
+                                        <div id="fcone" class="accordion-collapse collapse show" data-bs-parent="#accordiontwo">
+                                            <div class="accordion-body">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id diam tincidunt, fringilla ante vitae, dapibus velit. Vivamus id tortor rhoncus, efficitur quam at, suscipit tortor. Integer fermentum convallis
+                                                    eros vel semper. Ut non imperdiet velit. Praesent eu dui vel lacus porta eleifend eget quis dui. Integer tempus massa in gravida tincidunt. Fusce in libero tristique, euismod nisi vel, luctus urna. Interdum
+                                                    et malesuada fames ac ante ipsum primis in faucibus. Donec et placerat arcu. Suspendisse lacinia tristique massa. Etiam risus justo, scelerisque id arcu eu, sodales tempor eros. Aliquam efficitur pretium
+                                                    urna, sit amet congue risus malesuada rutrum. Donec id massa vel velit ullamcorper accumsan ut eget nisl. Fusce viverra commodo lacus, sit amet facilisis leo luctus dictum. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion_item">
+                                        <h2 class="accordion-header accordion_btn collapsed" data-bs-toggle="collapse" data-bs-target="#fctwo">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nisl nunc, iaculis mattis tellus ac ut non imperdiet velit?
+                                        </h2>
+                                        <div id="fctwo" class="accordion-collapse collapse" data-bs-parent="#accordiontwo">
+                                            <div class="accordion-body">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id diam tincidunt, fringilla ante vitae, dapibus velit. Vivamus id tortor rhoncus, efficitur quam at, suscipit tortor. Integer fermentum convallis
+                                                    eros vel semper. Ut non imperdiet velit. Praesent eu dui vel lacus porta eleifend eget quis dui. Integer tempus massa in gravida tincidunt. Fusce in libero tristique, euismod nisi vel, luctus urna. Interdum
+                                                    et malesuada fames ac ante ipsum primis in faucibus. Donec et placerat arcu. Suspendisse lacinia tristique massa. Etiam risus justo, scelerisque id arcu eu, sodales tempor eros. Aliquam efficitur pretium
+                                                    urna, sit amet congue risus malesuada rutrum. Donec id massa vel velit ullamcorper accumsan ut eget nisl. Fusce viverra commodo lacus, sit amet facilisis leo luctus dictum. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion_item">
+                                        <h2 class="accordion-header accordion_btn collapsed" data-bs-toggle="collapse" data-bs-target="#fcthree">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nisl nunc, iaculis mattis tellus ac ut non imperdiet velit?
+                                        </h2>
+                                        <div id="fcthree" class="accordion-collapse collapse" data-bs-parent="#accordiontwo">
+                                            <div class="accordion-body">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id diam tincidunt, fringilla ante vitae, dapibus velit. Vivamus id tortor rhoncus, efficitur quam at, suscipit tortor. Integer fermentum convallis
+                                                    eros vel semper. Ut non imperdiet velit. Praesent eu dui vel lacus porta eleifend eget quis dui. Integer tempus massa in gravida tincidunt. Fusce in libero tristique, euismod nisi vel, luctus urna. Interdum
+                                                    et malesuada fames ac ante ipsum primis in faucibus. Donec et placerat arcu. Suspendisse lacinia tristique massa. Etiam risus justo, scelerisque id arcu eu, sodales tempor eros. Aliquam efficitur pretium
+                                                    urna, sit amet congue risus malesuada rutrum. Donec id massa vel velit ullamcorper accumsan ut eget nisl. Fusce viverra commodo lacus, sit amet facilisis leo luctus dictum. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ======///accordion===== -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==================// faq section =========== -->
+
+    <!-- =============Newsletter========= -->
+    <section class="newsletter faq_newsletter">
+        <div class="container-fluid">
+            <div class="row justify-content-center title">Get Our Newsletter</div>
+            <div class="row justify-content-center">
+                <div class="col-11">
+                    <form action="" class="row gx-1 justify-content-center newsletter_form">
+                        <input type="text" class="col-md-5 col-11" placeholder="Your Email">
+                        <button class="btn submit_btn col-md-5 col-11" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==============//Newsletter============= -->
+
+    <!-- ============Footer============== -->
+    <footer class="footer">
+
+        <div class="container-fluid footer_wrapper">
+            <div class="row justify-content-between align-items-center footer_bar">
+                <div class="col-md-1 footer_logo"><img src="./assets/images/logo.png" class="img-fluid" alt=""></div>
+                <div class="col-md-8 footer_menu">
+                    <ul>
+                        <li class="item">
+                            <a class="link" href="#">HOME</a>
+                        </li>
+                        <li class="item">
+                            <a class="link" href="#">ABOUT</a>
+                        </li>
+                        <li class="item">
+                            <a class="link" href="#">TESTIMONIAL</a>
+                        </li>
+                        <li class="item">
+                            <a class="link" href="#">FAQS</a>
+                        </li>
+                        <li class="item">
+                            <a class="link" href="#">INSURANCE POLICY</a>
+                        </li>
+                        <li class="item">
+                            <a class="link" href="#">IMPRESSUM</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-1 social">
+                    <img src="./assets/images/fb.svg" alt="">
+                    <img src="./assets/images/insta.svg" alt="">
+                </div>
+            </div>
+
+            <div class="row justify-content-between align-items-center footer_bar">
+                <hr style="margin: 0; color: white;">
+                <div style="color: white; text-align: center; margin-top: 27px;">
+                    ©2018 Helperland. All rights reserved. Terms and Conditions | Privacy Policy
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- <======================//Footer============= -->
+
+
+
+    <script src="./assets/js/main.js "></script>
+    <script src="./assets/js/bootstrap.bundle.min.js "></script>
+</body>
+
+</html>

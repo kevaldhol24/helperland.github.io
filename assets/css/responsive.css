@@ -1,51 +1,54 @@
 @media (max-width:1300px) {
-    .navbar .navbar-collapse {
+    #header .navbar .navbar-collapse {
         margin: 30px 0 54px;
     }
-    .navbar .navbar-collapse .nav-item .nav-link {
+    #header .navbar .navbar-collapse .nav-item .nav-link {
         padding: 12px 20px;
     }
-    .navbar .navbar-nav .dropdown .nav-link {
+    #header .navbar .navbar-nav .dropdown .nav-link {
         padding: 12px 0px;
     }
-    .navbar-brand {
+    #header .navbar-brand {
         height: 100px;
         width: 165px;
     }
 }
 
 @media (max-width:1230px) {
-    .navbar .navbar-collapse .navbar .navbar-collapse {
+    #header .navbar .navbar-collapse .navbar .navbar-collapse {
         margin: 0;
     }
-    .navbar .navbar-collapse .nav-item .nav-link {
+    #header .navbar .navbar-collapse .nav-item .nav-link {
         padding: 12px 10px;
     }
-    .navbar .navbar-nav .dropdown .nav-link {
+    #header .navbar .navbar-nav .dropdown .nav-link {
         padding: 12px 0px;
     }
-    .navbar-brand {
+    #header .navbar-brand {
         height: 100px;
         width: 165px;
+    }
+    #navbar_2 .navbar .navbar-nav .nav-item {
+        margin: 0 10px;
     }
 }
 
 @media (max-width:1070px) {
-    .navbar-brand {
+    #header .navbar-brand {
         height: 80px;
         width: 145px;
     }
-    .navbar .navbar-collapse .nav-item .nav-link {
+    #header .navbar .navbar-collapse .nav-item .nav-link {
         padding: 12px 8px;
     }
-    .navbar .navbar-nav .dropdown .nav-link {
+    #header .navbar .navbar-nav .dropdown .nav-link {
         padding: 12px 0px;
     }
 }
 
 @media (max-width:992px) {
     /* ----navbar--- */
-    .navbar .navbar-collapse .nav-item .nav-link {
+    #header .navbar .navbar-collapse .nav-item .nav-link {
         padding: 12px 8px;
         max-width: 200px;
         margin: auto;
@@ -87,15 +90,15 @@
         margin-left: -10px;
     }
     .navbar_bg_color {
-        background-color: black;
+        background-color: #525252;
     }
-    .navbar_scrolled .navbar-collapse {
-        background-color: black;
+    #header .navbar_scrolled .navbar-collapse {
+        background-color: #525252;
         border-radius: 0px 0px 8px 8px;
         margin-top: 9px;
         box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
     }
-    .nav-item {
+    #header .nav-item {
         margin: 10px 0;
     }
     /* ---hero--- */
@@ -114,6 +117,21 @@
     .footer .footer_bar {
         margin: auto 60px;
         padding-top: 20px;
+    }
+    #navbar_2 .navbar_bg_color .container-fluid {
+        background-color: #525252;
+        transition: all 0.3s linear;
+    }
+    #navbar_2 .navbar_bg_color .navbar-collapse {
+        padding: 15px 0;
+    }
+    #navbar_2 .navbar .navbar-nav .nav-item {
+        margin: 10px 0;
+    }
+    #navbar_2 .navbar-collapse .navbar-nav {
+        max-width: 161px;
+        margin: auto;
+        text-align: center;
     }
 }
 
@@ -144,6 +162,11 @@
     #hero .book_btn {
         margin-top: 10px;
     }
+    .faq_accordion .nav-tabs .nav-item .nav-link {
+        font-size: 20px;
+        line-height: normal;
+        min-height: 70px;
+    }
 }
 
 @media (max-width:576px) {
@@ -163,15 +186,15 @@
         margin-bottom: 10px;
     }
     .fixedbottom {
-        position: absolute;
-        height: 63px;
-        width: 63px;
-        bottom: 100px;
+        bottom: 120px;
         right: 20px;
+    }
+    .footer .copyright p {
+        line-height: 25px;
     }
 }
 
-@media (max-width:380px) {
+@media (max-width:386px) {
     #customer_say .row .col-md-3 .card_header {
         margin: 36px 18px 18px 35px;
     }
@@ -181,6 +204,12 @@
     #customer_say .card_header .message {
         left: 220px;
         top: -18px;
+    }
+    .faq_accordion .nav-tabs .nav-item .nav-link {
+        font-size: 16px;
+        line-height: normal;
+        min-height: 70px;
+        padding: 0;
     }
 }
 
